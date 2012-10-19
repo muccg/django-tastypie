@@ -1,3 +1,10 @@
+====================
+django-tastypie fork
+====================
+
+Fork created for CCG, so we can build eggs containing newer features than the latest release in a controlled manner. 
+
+
 ===============
 django-tastypie
 ===============

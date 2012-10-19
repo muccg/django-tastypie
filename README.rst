@@ -4,6 +4,21 @@ django-tastypie fork
 
 Fork created for CCG, so we can build eggs containing newer features than the latest release in a controlled manner. 
 
+Whenever you want to create a new version, just add the '.ccg.YYYYMMDD' to the version number in setup.py and then 
+create a new tag for the release.
+
+Example:
+   
+setup.py version number was '0.9.12-alpha'
+
+It changed to '0.9.12-alpha.ccg.20121019' for our first release.
+
+Then tag with::
+
+  $ git tag -a v0.9.12-alpha.ccg.20121019
+  $ git push --tags
+
+You can download your tarball from Github Tags and build a binary egg in your VM, then upload_egg it to our repo.
 
 ===============
 django-tastypie
